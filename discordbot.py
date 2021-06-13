@@ -134,5 +134,6 @@ while True:
 async def ping(ctx):
     await ctx.send('pong')
 
-
+async def neko(ctx):
+    await ctx.send('にゃん')
 bot.run(token)
